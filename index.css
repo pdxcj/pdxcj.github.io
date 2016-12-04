@@ -1,0 +1,106 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add! */
+
+* {
+  font-family: arial, helvetica, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 800px;
+  height: 100%;
+  background-color: #fbf6d1;
+}
+
+header {
+  background-color: #b7dc24;
+  padding: 14px;
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+}
+
+nav {
+}
+
+nav ul {
+  padding: 5px;
+  /*border-bottom: ;*/
+  list-style-type: none;
+  background-color: #46453d;
+  color: f7f4e8;
+  height: 48px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  height: 25px;
+  padding: 12px 18px 8px 18px;
+  vertical-align: middle;
+  color: #f7f4e8;
+}
+
+a {
+  color: #167e8a;
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+section {
+  width: 73%;
+  display: inline-block;
+  float: left;
+}
+
+section img {
+    float: left;
+    margin-right: 26px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+aside {
+  width: 17%;
+  display: inline-block;
+  background-color: #dbd5c1;
+  padding:10px;
+  min-height: 100%;
+  margin-left: 26px;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+aside img {
+  width: 100%;
+}
+
+.aside-list {
+  padding: 0 10px 10px 10px;
+}
+
+.aside-list li {
+  font-size: .7em;
+  color: #755c4f;
+}
+
+footer {
+  text-align: center;
+  width: 790px;
+  /* background-color:; */
+  color:#81807d;
+  clear: both;
+  display: block;
+}
